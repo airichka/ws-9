@@ -1,0 +1,15 @@
+C:\Users\Иришка\Desktop\ws 9\bin\Debug\net6.0\ws 9.exe
+C:\Users\Иришка\Desktop\ws 9\bin\Debug\net6.0\ws 9.deps.json
+C:\Users\Иришка\Desktop\ws 9\bin\Debug\net6.0\ws 9.runtimeconfig.json
+C:\Users\Иришка\Desktop\ws 9\bin\Debug\net6.0\ws 9.dll
+C:\Users\Иришка\Desktop\ws 9\bin\Debug\net6.0\ws 9.pdb
+C:\Users\Иришка\Desktop\ws 9\obj\Debug\net6.0\ws 9.csproj.AssemblyReference.cache
+C:\Users\Иришка\Desktop\ws 9\obj\Debug\net6.0\ws 9.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Иришка\Desktop\ws 9\obj\Debug\net6.0\ws 9.AssemblyInfoInputs.cache
+C:\Users\Иришка\Desktop\ws 9\obj\Debug\net6.0\ws 9.AssemblyInfo.cs
+C:\Users\Иришка\Desktop\ws 9\obj\Debug\net6.0\ws 9.csproj.CoreCompileInputs.cache
+C:\Users\Иришка\Desktop\ws 9\obj\Debug\net6.0\ws 9.dll
+C:\Users\Иришка\Desktop\ws 9\obj\Debug\net6.0\refint\ws 9.dll
+C:\Users\Иришка\Desktop\ws 9\obj\Debug\net6.0\ws 9.pdb
+C:\Users\Иришка\Desktop\ws 9\obj\Debug\net6.0\ws 9.genruntimeconfig.cache
+C:\Users\Иришка\Desktop\ws 9\obj\Debug\net6.0\ref\ws 9.dll
