@@ -1,28 +1,43 @@
-﻿/* Задача 64: Задайте значение N. Напишите программу, которая выведет все натуральные числа в промежутке от N до 1. Выполнить с помощью рекурсии.
+﻿/* Задача 66: Задайте значения M и N. Напишите программу, которая найдёт сумму натуральных элементов в промежутке от M до N.
 
-N = 5 -> "5, 4, 3, 2, 1"
-N = 8 -> "8, 7, 6, 5, 4, 3, 2, 1"*/
+M = 1; N = 15 -> 120
+M = 4; N = 8. -> 30*/
 
-Console.Write("Введите число: ");
+Console.Write("Введите число M: ");
 
-if(uint.TryParse(Console.ReadLine(), out uint result))
+if (uint.TryParse(Console.ReadLine(), out uint resultM))
 {
- Console.Write($"N = {result} -> ");
- WriteNums(result);
+    Console.Write("Введите число N: ");
+    if (uint.TryParse(Console.ReadLine(), out uint resultN))
+    {
+        Console.Write($"M = {resultM}; N = {resultN} -> {GetSum(resultM, resultN)}");
+    }
 }
 else
 {
- Console.WriteLine("Вы ввели не натуральное число");
+    Console.WriteLine("Вы ввели не натуральное число");
 }
 
-uint WriteNums(uint n)
+static uint GetSum(uint m, uint n)
 {
- if (n > 1)
- {
- Console.Write($"{n}, ");
- return WriteNums(--n);
- }
+    uint sum = 0;
 
- Console.Write(n);
- return n;
+    foreach (var num in GetNumCollection(m, n))
+    {
+        sum += num;
+    }
+
+    return sum;
+}
+
+static IEnumerable<uint> GetNumCollection(uint m, uint n)
+{
+    var nums = new List<uint>();
+
+    for (var i = m; i <= n; i++)
+    {
+        nums.Add(i);
+    }
+
+    return nums;
 }
